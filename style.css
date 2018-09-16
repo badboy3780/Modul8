@@ -22,6 +22,7 @@ header{
     background: none;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .sing-up{
@@ -32,6 +33,7 @@ header{
     border: 2px solid white;
     border-radius: 30px;
     color: white;
+    cursor: pointer;
 }
 
 .wrapper{
@@ -80,4 +82,5 @@ header{
     border: 1px solid #ff4e50;
     background-color: #ff4e50;
     color: white;
+    cursor: pointer;
 }
