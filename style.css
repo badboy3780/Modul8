@@ -3,7 +3,7 @@ header{
     background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 542px;
+    height: 570px;
 }
 
 .container{
@@ -83,4 +83,155 @@ header{
     background-color: #ff4e50;
     color: white;
     cursor: pointer;
+}
+
+.title-about{
+    margin-top: 68px;
+    margin-bottom: 14px;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center; 
+}
+
+section{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+     
+}
+
+.team{
+    margin-left: auto;
+    margin-right: auto;
+    width: 218px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 194px;
+    height: auto;
+}
+
+.photo{
+    background-image: url(img/Layer%206.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 122px;
+    border-radius: 60px;
+    position: relative;
+    left: 35px;
+}
+
+.photo-marsh{
+    background-image: url(img/Layer%208.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 122px;
+    border-radius: 60px;
+    position: relative;
+    left: 35px;
+}
+
+.photo-walker{
+    background-image: url(img/Layer%207.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 122px;
+    border-radius: 60px;
+    position: relative;
+    left: 35px;
+    
+}
+
+.photo-hunter{
+    background-image: url(img/Layer%209.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 122px;
+    border-radius: 60px;
+    position: relative;
+    left: 35px;
+}
+
+.photo-plus-wrapper{
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: #ff4e50;
+    position: absolute;
+    border: 4px solid white;
+    left: 89px;
+    top:89px;
+    border-radius: 40px;
+    width: 33px;
+    height: 33px;
+}
+
+.photo-plus{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.photo-plus-marsh{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.photo-plus-walker{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.photo-plus-hunter{
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+
+.title-info{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.other{
+    display: block;
+    width: 280px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 29px;
+    border: 2px solid #ff4e50;
+    background-color: white;
+    color: #ff4e50;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    
+}
+
+.info{
+     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 255);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;   
+}
+.main{
+    margin: auto;
 }
