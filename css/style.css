@@ -1,17 +1,17 @@
 
 header{
-    background-image: url(img/background.png);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 570px;
+    height: 647px;
 }
 
 .container{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top:  21px;
-    width: 318px; 
+    padding-top:  25px;
+    width: 335px; 
 }
 
 
@@ -21,21 +21,40 @@ header{
     border: none;
     color: white;
     cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
 }
 
 .sing-up{
-    width: 90px;
-    height: 36px;
+    width: 106px;
+    height: 42px;
     margin-left: 10px;
     background: none;
     border: 2px solid white;
     border-radius: 30px;
     color: white;
     cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 10px;
 }
 
 .wrapper{
-     margin-bottom: 115px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 38px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .main-info{
@@ -49,49 +68,53 @@ header{
     color: #ffffff;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 700;
-    margin-bottom: 38px;
+    margin-top: 144px;
 }
 
 .title{
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
 }
 
 .text{
-    margin-top: 19px;
-    width: 218px;
+    margin-top: 20px;
+    width: 260px;
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 17px;
+    font-size: 21px;
+    line-height: 25px;
     font-weight: 300;
 }
 
 .find{
-    width: 280px;
-    height: 40px;
+    width: 344px;
+    height: 48px;
     border-radius: 30px;
     margin-top: 19px;
-    border: 1px solid #ff4e50;
+    border: none;
     background-color: #ff4e50;
     color: white;
     cursor: pointer;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: 400;
+    font-size: 19px;
+    padding-left: 8px;
 }
 
 .title-about{
-    margin-top: 68px;
-    margin-bottom: 14px;
+    margin-top: 57px;
+    margin-bottom: 13px;
     font-family:  "Montserrat", sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
     text-align: center; 
+    line-height: 29px;
 }
 
 section{
@@ -108,12 +131,10 @@ section{
     width: 218px;
 }
 
-.card{
-    width: 232px;
-}
+
 
 .photo{
-    background-image: url(img/Layer%206.png);
+    background-image: url(../img/Layer%206.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 122px;
@@ -124,7 +145,7 @@ section{
 }
 
 .photo-marsh{
-    background-image: url(img/Layer%208.png);
+    background-image: url(../img/Layer%208.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 122px;
@@ -135,7 +156,7 @@ section{
 }
 
 .photo-walker{
-    background-image: url(img/Layer%207.png);
+    background-image: url(../img/Layer%207.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 122px;
@@ -147,7 +168,7 @@ section{
 }
 
 .photo-hunter{
-    background-image: url(img/Layer%209.png);
+    background-image: url(../img/Layer%209.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 122px;
@@ -275,7 +296,7 @@ section{
 @media (min-width: 748px) {
     
     header{
-    background-image: url(img/background.png);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
@@ -290,8 +311,11 @@ section{
     }
     
     .wrapper{
-     margin-bottom: 115px;
-        text-align: right;
+    margin-bottom: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        
 }
    .logo{
     color: #ffffff;
@@ -299,9 +323,8 @@ section{
     font-family: "Montserrat", sans-serif;
     font-size: 21px;
     font-weight: 700;
-    margin-bottom: 165px;
-    margin-left: -413px;
-    margin-top: -140px;
+    margin-top: 0px;
+    
 } 
     
     .main-info{
@@ -322,7 +345,7 @@ section{
     .title{
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 50px;
+    font-size: 49px;
     font-weight: 700;
     line-height: 64px;
     text-transform: uppercase;
@@ -338,11 +361,13 @@ section{
     cursor: pointer;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: 400;
+    font-size: 16px;
+
 }
     .team{
     display: flex;
     flex-wrap: wrap;
-    width: 473px;
+   
 }
     section{
     width: 473px;
@@ -366,7 +391,7 @@ section{
 @media (min-width: 942px){
     
     header{
-        background-image: url(img/background.png);
+        background-image: url(../img/background.png);
         background-repeat: no-repeat;
         background-position: center;
         height: 700px;
@@ -404,8 +429,16 @@ section{
     font-family: "Montserrat", sans-serif;
     font-size: 21px;
     font-weight: 700;
-    margin-bottom: 165px;
-    margin-left: -1213px;
-    margin-top: -140px;
+    margin-top: 0px;
+    
 } 
+    .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 160px;
+    
+}
 }
